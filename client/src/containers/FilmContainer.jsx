@@ -30,7 +30,7 @@ class FilmContainer extends Component {
             <div>
                 <h2>Sutherland Films</h2>
                 <FilmSelector films={this.state.films} handleSelectedFilm = {this.handleSelectedFilm}/>
-                {/* <FilmDetail film={this.selectedFilm}/> */}
+                <FilmDetail film={this.state.selectedFilm}/>
             </div>
         )
     }
